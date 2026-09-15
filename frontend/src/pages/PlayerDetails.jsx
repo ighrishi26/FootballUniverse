@@ -73,22 +73,22 @@ function PlayerDetails() {
 
                 <div className="player-profile-image">
 
-                    {player.image ? (
-                        <img
-                            src={player.image}
-                            alt={player.name}
-                        />
-                    ) : (
-                        <div className="player-profile-placeholder">
-                            {player.name.charAt(0)}
-                        </div>
-                    )}
+    {player.image ? (
+        <img
+            src={player.image}
+            alt={player.name}
+        />
+    ) : (
+        <div className="player-profile-placeholder">
+            {player.name.charAt(0)}
+        </div>
+    )}
 
-                    <span>
-                        #{player.shirt_number}
-                    </span>
+    <span>
+        #{player.shirt_number}
+    </span>
 
-                </div>
+</div>
 
 
                 <div className="player-profile-info">

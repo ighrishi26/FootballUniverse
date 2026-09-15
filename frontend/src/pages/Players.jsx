@@ -525,22 +525,22 @@ function Players() {
 
                                 <div className="player-card-avatar">
 
-                                    {player.image ? (
+    {player.image ? (
 
-                                        <img
-                                            src={player.image}
-                                            alt={player.name}
-                                        />
+        <img
+            src={player.image}
+            alt={player.name}
+        />
 
-                                    ) : (
+    ) : (
 
-                                        player.name
-                                            .charAt(0)
-                                            .toUpperCase()
+        player.name
+            .charAt(0)
+            .toUpperCase()
 
-                                    )}
+    )}
 
-                                </div>
+</div>
 
 
                                 <div className="player-card-content">
